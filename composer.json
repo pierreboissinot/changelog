@@ -1,7 +1,8 @@
 {
     "type": "project",
-    "license": "proprietary",
+    "license": "MIT",
     "name": "pierreboissinot/changelog",
+    "homepage": "https://github.com/pierreboissinot/changelog",
     "description": "Helps you to manage changelog",
     "authors": [
         {
@@ -9,6 +10,7 @@
             "email": "perso@pierreboissinot.me"
         }
     ],
+    "keywords": ["changelog"],
     "require": {
         "php": "^7.1.3",
         "ext-ctype": "*",
