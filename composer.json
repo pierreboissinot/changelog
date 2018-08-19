@@ -32,7 +32,7 @@
         },
         "sort-packages": true
     },
-    "bin": ["changelog-helper.php"],
+    "bin": ["changelog-helper"],
     "autoload": {
         "psr-4": {
             "App\\": "src/"
