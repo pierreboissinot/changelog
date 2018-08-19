@@ -16,13 +16,10 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "emlynwest/changelog": "^1.2",
-        "symfony/console": "^3.4",
+        "symfony/console": "^3.4|~4.0",
         "symfony/finder": "^4.1",
         "symfony/flex": "^1.0",
-        "symfony/framework-bundle": "^4.1",
-        "symfony/lock": "^4.1",
-        "symfony/lts": "^4@dev",
-        "symfony/yaml": "^4.1"
+        "symfony/lock": "^4.1"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.12",
@@ -53,8 +50,9 @@
         "symfony/polyfill-php56": "*"
     },
     "scripts": {
-        "auto-scripts": [
-        ],
+        "auto-scripts": {
+
+        },
         "post-install-cmd": [
             "@auto-scripts"
         ],
