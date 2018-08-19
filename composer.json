@@ -1,5 +1,5 @@
 {
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "name": "pierreboissinot/changelog",
     "homepage": "https://github.com/pierreboissinot/changelog",
