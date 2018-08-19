@@ -1,0 +1,6 @@
+{
+  "chmod": "0755",
+  "stub": true,
+  "main": "changelog.php",
+  "compression": "GZ"
+}
