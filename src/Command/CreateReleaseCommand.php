@@ -27,7 +27,7 @@ class CreateReleaseCommand extends Command
     protected function configure()
     {
         $this
-            ->setName('changelog:create-release')
+            ->setName('changelog-helper:create-release')
             ->setDescription('Creates a new release in CHANGELOG from content of your partial changelogs')
             ->setDefinition([
                 new InputArgument('unreleased', InputArgument::OPTIONAL, 'The path to unreleased changelogs', './CHANGELOG/unreleased'),
