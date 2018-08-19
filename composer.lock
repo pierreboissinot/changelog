@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e47a6ecd7cb4724d9a762a8039ff0fc9",
+    "content-hash": "f7bbf03d75fab5cb53c22aadb1626643",
     "packages": [
         {
             "name": "emlynwest/changelog",
