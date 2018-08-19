@@ -6,7 +6,7 @@ use App\Command\CreateReleaseCommand;
 use App\Service\ChangelogManager;
 use Symfony\Component\Console\Application;
 
-$application = new Application();
+$application = new Application('Changelog helper');
 
 $application->add(new CreateReleaseCommand(new ChangelogManager()));
 $application->run();
