@@ -1,1 +1,8 @@
-[]
+{
+    "emlynwest/changelog": {
+        "version": "1.2.0"
+    },
+    "naneau/semver": {
+        "version": "0.0.7"
+    }
+}

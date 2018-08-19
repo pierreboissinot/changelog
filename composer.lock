@@ -4,8 +4,114 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b5b7f8c35a0a3cefa33f783f090123b0",
+    "content-hash": "e47a6ecd7cb4724d9a762a8039ff0fc9",
     "packages": [
+        {
+            "name": "emlynwest/changelog",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/emlynwest/changelog.git",
+                "reference": "e37aa886e945fc5a7734e26533414b45203c5ece"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/emlynwest/changelog/zipball/e37aa886e945fc5a7734e26533414b45203c5ece",
+                "reference": "e37aa886e945fc5a7734e26533414b45203c5ece",
+                "shasum": ""
+            },
+            "require": {
+                "naneau/semver": "^0.0.7",
+                "symfony/console": "^3.0"
+            },
+            "require-dev": {
+                "codeception/codeception": "~2.0",
+                "codeception/mockery-module": "dev-master",
+                "codegyre/robo": "^0.7.2",
+                "league/flysystem": "dev-master",
+                "milo/github-api": "dev-master",
+                "php": ">=5.6"
+            },
+            "suggest": {
+                "league/flysystem": "Allows change logs to be read and written to pretty much everywhere.",
+                "milo/github-api": "Allows change logs to be loaded and committed to/from a github repo."
+            },
+            "bin": [
+                "changelog"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ChangeLog\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve \"uru\" West",
+                    "email": "steven.david.west@gmail.com"
+                }
+            ],
+            "description": "Package to enable change logs to be parsed",
+            "homepage": "https://github.com/stevewest/changelog",
+            "keywords": [
+                "change",
+                "changelog",
+                "log",
+                "parser"
+            ],
+            "time": "2016-04-23T13:12:11+00:00"
+        },
+        {
+            "name": "naneau/semver",
+            "version": "0.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/naneau/semver.git",
+                "reference": "60ea59641aad840f97f3c9057e2f2b7bc087eaa3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/naneau/semver/zipball/60ea59641aad840f97f3c9057e2f2b7bc087eaa3",
+                "reference": "60ea59641aad840f97f3c9057e2f2b7bc087eaa3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Naneau\\SemVer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maurice Fonk",
+                    "email": "maurice@naneau.net",
+                    "homepage": "http://mauricefonk.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "A decent, standards-compliant, Semantic Versioning (SemVer) parser and library",
+            "homepage": "https://github.com/naneau/semver",
+            "keywords": [
+                "semantic",
+                "semver",
+                "versioning"
+            ],
+            "time": "2013-01-04T00:00:00+00:00"
+        },
         {
             "name": "psr/cache",
             "version": "1.0.1",
