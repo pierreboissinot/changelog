@@ -35,6 +35,15 @@
     "php-cs-fixer/diff": {
         "version": "v1.3.0"
     },
+    "symfony/flex": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "e921bdbfe20cdefa3b82f379d1cd36df1bc8d115"
+        }
+    },
     "symfony/lock": {
         "version": "v4.1.3"
     },
