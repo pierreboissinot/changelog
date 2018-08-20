@@ -5,8 +5,6 @@ namespace App\Tests\Command;
 use App\Command\CreateReleaseCommand;
 use App\Service\ChangelogManager;
 use PHPUnit\Framework\TestCase;
-use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
-use Symfony\Component\Console\Application;
 use Symfony\Component\Console\Tester\CommandTester;
 
 class CreateReleaseCommandTest extends TestCase
@@ -20,6 +18,6 @@ class CreateReleaseCommandTest extends TestCase
             'changelog' => './var/tests/CHANGELOG.md',
         ]);
         $statusCode = $commandTester->getStatusCode();
-        $this->assertEquals(0, $statusCode);
+        $this->assertSame(0, $statusCode);
     }
 }

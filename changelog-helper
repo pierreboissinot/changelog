@@ -12,11 +12,12 @@ if ((!$loader = includeIfExists(__DIR__.'/vendor/autoload.php')) && (!$loader = 
         'php composer.phar install'.PHP_EOL);
 }
 
+use App\Version;
 use App\Command\CreateReleaseCommand;
 use App\Service\ChangelogManager;
 use Symfony\Component\Console\Application;
 
-$application = new Application('Changelog helper');
+$application = new Application('Changelog helper', Version::VERSION);
 
 $application->add(new CreateReleaseCommand(new ChangelogManager()));
 $application->run();
