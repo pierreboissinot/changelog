@@ -1,6 +1,7 @@
 /vendor/
 /.idea/
 /composer.lock
+/symfony.lock
 
 ###> friendsofphp/php-cs-fixer ###
 /.php_cs
