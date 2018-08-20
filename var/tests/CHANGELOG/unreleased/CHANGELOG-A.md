@@ -10,6 +10,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Add from changelog A.
 
 ### Changed
-- Change from changelog B.
-- Another change from Changelog B.
+- Change from changelog A.
+- Another change from Changelog A.
 
